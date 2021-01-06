@@ -1,7 +1,8 @@
 name: 'gemma_dbt_utils'
-version: '0.2.3'
+version: '0.2.8'
+config-version: 2
 
-require-dbt-version: '>=0.14.0'
+require-dbt-version: '>=0.17.0'
 
 target-path: "target"
 clean-targets: ["target", "dbt_modules"]
